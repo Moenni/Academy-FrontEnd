@@ -182,9 +182,16 @@ ul.slider li:target{
    text-align: center;
    
 }
-#modoOscuro{
+
+.btn{
     font-family: 'Dancing Script', cursive;
     font-size:xx-large;
     color:salmon;
     border:white solid
+}
+
+/*Aplicando el modo oscuro*/
+.dark *{
+    background-color: black;
+   color:coral; 
 }
