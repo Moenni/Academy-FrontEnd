@@ -3,14 +3,44 @@
     background-color:beige;
 
 }
+/* Nav bar Central*/
+.navCentral{
+    font-family: 'Dancing Script', cursive;
+    font-size:xx-large;
+    color:salmon;
+    float:right;
+    text-align: right;
+    
+}
+.navCentral li{
+    color:salmon;
+    padding:10px 15px;
+    display:block;
+    font-size:x-large;
+}
 
-#header{
+.navCentral li:hover{
+    color:cornflowerblue;
+}
+
+.navCentral li{
+    position:absolute;
+    display:none;
+}
+.navCentral:hover>li{
+    display:contents;
+}
+
+/* Dando estilo a la solapa izquierda*/
+.headerIzquierdo{
     margin:auto;
-    width: 500px;
+    
 }
 .botonContacto{
     font-family: 'Dancing Script', cursive;
     font-size:xx-large;
+    color:salmon;
+   
 }
 ul,ol{
     list-style: none;
@@ -45,10 +75,14 @@ ul,ol{
     align-items: flex-start;
     
 }
-h1{
-    text-align: center;
+
+/*Dando estilo al slide central*/
+span{
+    align-items: center;
     font-family: 'Dancing Script', cursive;
     font-size:xx-large;
+    color:salmon;
+    background-color: blanchedalmond;
 }
 .container{
     text-align: center;
@@ -57,4 +91,100 @@ h1{
 }
 ul li img{
     border-radius: 50px;
+}
+
+
+ .container{
+    margin:auto;
+    width:800px;
+    padding:5px;
+    background-color:blanchedalmond;
+    border: white solid;
+}
+ul,li{
+    margin:0;
+    padding:0;
+}
+ul.slider{
+    position:relative;
+    width:800px;
+    height: 300px;
+}
+ul.slider li{
+    position:absolute;
+    left:0;
+    top:0;
+    opacity: 0;
+    width:inherit;
+    height: inherit;
+    background-color:blanchedalmond ;
+    transition: opacity 0.5s;
+   
+}
+ul.slider li img{
+    width:100%;
+    width:300px;
+    object-fit: cover;
+}
+ul.slider li:first-child{
+    opacity:1;
+}
+
+ul.slider li:target{
+    opacity:1;
+}
+
+
+
+.menu li{
+    text-align:center;
+}
+.menu li{
+    display:inline-block;
+    text-align: center;
+}
+.menu li a{
+    display:inline-block;
+    color:cadetblue;
+    text-decoration: none;
+    background-color:cornsilk ;
+    padding:10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+/* dando estilo y centrado al texto*/
+#referencia1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: large;
+    color:black;
+    border: solid 5px white;
+}
+#referencia2{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: large;
+    color:black;
+    color:black;
+    border: solid 5px white;
+}
+#referencia3{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: large;
+    color:black;
+    color:black;
+    border: solid 5px white;
+}
+/* Boton modo Oscuro*/
+.botonOscuro{
+   text-align: center;
+   
+}
+#modoOscuro{
+    font-family: 'Dancing Script', cursive;
+    font-size:xx-large;
+    color:salmon;
+    border:white solid
 }
