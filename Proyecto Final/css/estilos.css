@@ -1,0 +1,60 @@
+*{
+  
+    background-color:beige;
+
+}
+
+#header{
+    margin:auto;
+    width: 500px;
+}
+.botonContacto{
+    font-family: 'Dancing Script', cursive;
+    font-size:xx-large;
+}
+ul,ol{
+    list-style: none;
+}
+.botonContacto li a{
+    color:salmon;
+    padding:10px 15px;
+    display:block;
+}
+.botonContacto  li a i:hover{
+    color:cornflowerblue;
+}
+
+.botonContacto >li{
+    float:left;
+}
+.botonContacto li{
+    position:absolute;
+    display:none;
+  
+}
+.botonContacto:hover>li,a,i{
+    display:list-item;
+}
+
+.botonContacto  li a i{
+    position:relative;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+h1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size:xx-large;
+}
+.container{
+    text-align: center;
+    
+    
+}
+ul li img{
+    border-radius: 50px;
+}
