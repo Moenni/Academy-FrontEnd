@@ -6,7 +6,7 @@
 /* Nav bar Central*/
 .navCentral{
     font-family: 'Dancing Script', cursive;
-    font-size:xx-large;
+    font-size:x-large;
     color:salmon;
     float:right;
     text-align: right;
@@ -16,7 +16,7 @@
     color:salmon;
     padding:10px 15px;
     display:block;
-    font-size:x-large;
+    font-size:large;
 }
 
 .navCentral li:hover{
@@ -38,8 +38,10 @@
 }
 .botonContacto{
     font-family: 'Dancing Script', cursive;
-    font-size:xx-large;
+    font-size:x-large;
     color:salmon;
+    justify-content: flex-start;
+   
    
 }
 ul,ol{
@@ -80,9 +82,11 @@ ul,ol{
 span{
     align-items: center;
     font-family: 'Dancing Script', cursive;
-    font-size:xx-large;
-    color:salmon;
+    font-size:x-large;
+    color:coral;
     background-color: blanchedalmond;
+    padding:0px 0px 2px 0px;
+    border:1px white solid;
 }
 .container{
     text-align: center;
@@ -91,23 +95,26 @@ span{
 }
 ul li img{
     border-radius: 50px;
+    border:1px solid white;
 }
 
 
  .container{
     margin:auto;
-    width:800px;
-    padding:5px;
+    width:500px;
+    
     background-color:blanchedalmond;
     border: white solid;
 }
 ul,li{
     margin:0;
     padding:0;
+    border-style:solid white;
+    
 }
 ul.slider{
     position:relative;
-    width:800px;
+    width:500px;
     height: 300px;
 }
 ul.slider li{
@@ -143,39 +150,51 @@ ul.slider li:target{
     display:inline-block;
     text-align: center;
 }
-.menu li a{
+.menu li a {
     display:inline-block;
     color:cadetblue;
     text-decoration: none;
-    background-color:cornsilk ;
+    background-color:blanchedalmond ;
     padding:10px;
     width: 20px;
     height: 20px;
     border-radius: 100%;
 }
 /* dando estilo y centrado al texto*/
+
 #referencia1{
     text-align: center;
     font-family: 'Dancing Script', cursive;
-    font-size: large;
-    color:black;
-    border: solid 5px white;
+    font-size:small;
+    color:cadetblue;
+    border:  1px ;
 }
 #referencia2{
+    
     text-align: center;
     font-family: 'Dancing Script', cursive;
-    font-size: large;
-    color:black;
-    color:black;
-    border: solid 5px white;
+    font-size: small;
+    color:cadetblue;
+    
+    border:  1px ;
 }
 #referencia3{
     text-align: center;
     font-family: 'Dancing Script', cursive;
-    font-size: large;
-    color:black;
-    color:black;
-    border: solid 5px white;
+    font-size: small;
+    color:cadetblue;
+    
+    border:  1px ;
+}
+parrafoRelleno{
+    padding: 0px 0px 15px 15px;
+    
+    font-size: medium;
+}
+.textoRelleno{
+padding:0px 0px 15px 15px;
+
+font-size: small;
 }
 /* Boton modo Oscuro*/
 .botonOscuro{
@@ -185,7 +204,7 @@ ul.slider li:target{
 
 .btn{
     font-family: 'Dancing Script', cursive;
-    font-size:xx-large;
+    font-size:large;
     color:salmon;
     border:white solid
 }
@@ -194,4 +213,22 @@ ul.slider li:target{
 .dark *{
     background-color: black;
    color:coral; 
+}
+/*Dando estilo al pie de pagina*/
+.grupo1{
+    display:flex;
+    
+    font-family:'Dancing Script', cursive; 
+    font-size: medium;
+    color:chocolate; 
+      justify-content: space-evenly;
+      align-items:flex-end ;
+      flex-direction: row-reverse;
+}
+
+figure a img{
+    border-radius: 100%;
+    width:150px;
+    display:flex;
+    align-items: center;
 }
